@@ -1,1 +1,0 @@
-# goyfield-developers.github.io
