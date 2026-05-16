@@ -1,0 +1,209 @@
+!title: 2-1 API Prologue
+!eyebrow: 2-1 API
+!meta: Section 2-1
+!meta: Last updated: April 29, 2026
+!meta: Edited by *@beetwooo_*
+
+# Prologue
+
+## Goyfield API
+
+Goyfield does not have an official API. However, this mock API is acts similarly as an "API". 
+It retrieves data from Goyfield and stores it in a structured JSON format. A full breakdown of how it works can be found [here](http://127.0.0.1:5500/main.html#api-mechanism/how-it-works).
+This mock API is can be used for Discord or Telegram.
+
+(i cant say this is called an "api" or "mock api" becasue it's NOT an api but meh... :P)
+
+## Mock API
+The short answer: A mock API is a simulated version of a real API, used primarily for testing and development.
+
+The slightly longer answer: The mock API mimics the behavior of the actual API by providing realistic responses to requests, 
+which enables developers to validate their code under real-world-like conditions even when the actual API is unavailable. 
+Mock APIs can be locally hosted or on the network, depending on the requirements of the unit or integration tests being conducted.
+
+[Source: WireMock](https://www.wiremock.io/glossary/mock-api)
+
+## APIs
+The API below will provide detailed explantion about every data's role. However it's mostly repetitive, don't waste your time here.
+
+
+### Basic Headhunting
+```json
+{
+  "Basic Headhunting": {
+    "Total Users": 3341,
+    "Total Pulls": 387223,
+    "Oroberyl Spent": 193611500,
+    "6-Star": {
+      "Rate": "1.571%",
+      "Count": 6083,
+      "Median Pity": 62,
+      "Won": null
+    },
+    "5-Star": {
+      "Rate": "13.359%",
+      "Count": 51728
+    }
+
+ ...
+```
+```
+https://goyfield-api.betwo.workers.dev/basic-headhunting
+```
+
+The permanent standard banner. Returns pull data from all users.
+
+- Total Users
+- Total Pulls
+- Oroberyl Spent
+- 6-Star Rate, Count, and Median Pity
+- 5-Star Rate and Count
+
+
+
+### New Horizons Headhunting
+```json
+{
+  "New Horizons Headhunting": {
+    "Total Users": 3306,
+    "Total Pulls": 130740,
+    "Oroberyl Spent": null,
+    "6-Star": {
+      "Rate": "2.607%",
+      "Count": 3409,
+      "Median Pity": 40,
+      "Won": null
+    },
+    "5-Star": {
+      "Rate": "12.641%",
+      "Count": 16527
+    },
+
+    
+ ...
+```
+```
+https://goyfield-api.betwo.workers.dev/new-horizons-headhunting
+```
+
+The new player banner. Returns with the same data as Basic Headhunting.
+
+- Total Users
+- Total Pulls
+- Oroberyl Spent
+- 6-Star Rate, Count, and Median Pity
+- 5-Star Rate and Count
+
+### Special Headhunting
+```json
+{
+  "Special Headhunting": {
+    "Thunder of Renewal": {
+      "Total Users": 849,
+      "Total Pulls": 85618,
+      "Oroberyl Spent": 42809000,
+      "6-Star": {
+        "Rate": "1.954%",
+        "Count": 1673,
+        "Median Pity": 36,
+        "Won": "52%"
+      },
+      "5-Star": {
+        "Rate": "12.044%",
+        "Count": 10312
+      },
+      "Total Obtained": 960,
+      "Featured Image": "https://goyfield.moe/images/operators/preview/zhuangfy.png"
+    },
+    
+ ...
+```
+```
+https://goyfield-api.betwo.workers.dev/special-headhunting
+```
+Limited operator banners. Each individual banner has its own data.
+
+- Total Users
+- Total Pulls
+- Oroberyl Spent
+- 6-Star Rate, Count, Median Pity, and Won (50:50)
+- 5-Star Rate and Count
+- Total Obtained
+- Featured Image
+
+### Event Weapon 
+```json
+{
+  "Event Weapon": {
+    "Drifting Raft Issue": {
+      "Total Users": 674,
+      "Total Pulls": 39660,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.013%",
+        "Count": 1988,
+        "Median Pity": 15,
+        "Won": "25%"
+      },
+      "5-Star": {
+        "Rate": "17.211%",
+        "Count": 6826
+      },
+      "Total Obtained": 597,
+      "Featured Image": null
+    },
+    
+ ...
+```
+```
+https://goyfield-api.betwo.workers.dev/event-weapon
+```
+
+Limited weapon banners. Returns the same data as Special Headhunting, but the guarantee is a 25:75 instead of 50:50.
+
+- Total Users
+- Total Pulls
+- Oroberyl Spent
+- 6-Star Rate, Count, Median Pity, and Won (25:75)
+- 5-Star Rate and Count
+- Total Obtained
+- Featured Image
+
+### Standard Weapon
+```json
+{
+  "Standard Weapon": {
+    "Solid Ice Issue": {
+      "Total Users": 1149,
+      "Total Pulls": 47440,
+      "Oroberyl Spent": null,
+      "6-Star": {
+        "Rate": "5.030%",
+        "Count": 2386,
+        "Median Pity": 13,
+        "Won": "27%"
+      },
+      "5-Star": {
+        "Rate": "16.895%",
+        "Count": 8015
+      },
+      "Total Obtained": 781,
+      "Featured Image": null
+    },
+    
+ ...
+```
+```
+https://goyfield-api.betwo.workers.dev/standard-weapon
+```
+
+Permanent weapon banners. Returns the same data as Event Weapon.
+
+- Total Users
+- Total Pulls
+- Oroberyl Spent
+- 6-Star Rate, Count, Median Pity, and Won (25:75)
+- 5-Star Rate and Count
+- Total Obtained
+- Featured Image
+

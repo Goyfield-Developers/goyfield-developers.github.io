@@ -1,0 +1,21 @@
+!title: Contents
+!eyebrow: Documentation Home
+
+# Contents
+
+
+## 1 Introduction
+
+- [1-1 Overview](#intro-overview) - Community, contribution paths, and where to get support.
+- [1-2 Getting Started](#getting-started) - null
+- [1-3 Warming Up](#warming-up) - null
+
+## 2 API
+
+- [2-1 Prologue](#api-prologue) - Introductory API context, structure, and what to expect before diving deeper.
+- [2-2 Mechanism](#api-mechanism) - How the API is works, Diving deeper to the mechanism.
+- [2-4 Samples](#api-samples) - Discord.js script example, Showcase.
+
+## 3 Website
+
+- [3-1 Prologue](#website-tracker) - null

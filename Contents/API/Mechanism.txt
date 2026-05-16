@@ -1,0 +1,53 @@
+!title: 2-2 API Mechanism
+!eyebrow: 2-2 API
+!meta: Section 2-2
+!meta: Last updated: April 23, 2026
+!meta: Edited by *@beetwooo_*
+
+# Mechanism
+
+### **NOTICE** 
+- It's not important to know this unless if you want to create a custom api that functions similarly to this.
+
+## Overview
+
+This is an explantion about how the mechanism works. 
+---
+%encrypt_1.png+sm
+## How It Works
+
+### Starting Up
+When the scraper runs, it launches an invisible copy of the Chromium browser and loads 
+the global records page. Then, it waits a few seconds for the page to fully load before doing the actual main functions
+
+### Navigating Banner Type
+The scraper clicks through each of these(**Basic Headhunting**, **Special Headhunting**, 
+**New Horizons Headhunting**, **Event Weapon**, and **Standard Weapon**)
+categories one at a time using the site's own navigation buttons(specifically through dropdown menu). If a click fails to register, 
+it will retry up to three times before looping back again.
+
+### Simple vs. Sub-Banner Pages
+Not all banner types work the same way. **Basic Headhunting** is straightforward,
+there is only one pool of statistics to read, so the scraper grabs them and moves on.
+
+The other four banner types each contain a **dropdown menu** of individual 
+banners (for example, each limited operator banner gets its own entry under Special Headhunting). 
+For these, the scraper opens the dropdown, reads the list of available banners, and visits each one in 
+sequence to collect its individual statistics.
+
+### Reading the Statistics
+The site does not provide a public data API so the scraper reads statistics directly 
+from the visible page content. It scans through every element and look for specific text 
+text like **"Rate"**, **"Count"**, **"Median Pity"**, and **"Total Obtained"**, then reads the value sitting 
+next to each label.
+
+### Saving the data
+After all the data have been scraped with no error, the Chromium browser closes and all the data is 
+saved through a file. 
+
+---
+
+## Limitations
+The scraper reads text directly to the page layout and text rather than a structured layout,
+ it can be sensitive to changes in how the site presents its information. If goyfield.moe updates its design
+  significantly, some values may not be found until the scraper is updated to match.

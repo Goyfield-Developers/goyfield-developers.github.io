@@ -1,0 +1,36 @@
+!title: 1-1 Overview
+!eyebrow: 1-1 Introduction
+!meta: Section 1-1
+!meta: Last updated: April 23, 2026
+!meta: Edited by *@beetwooo_*
+
+# Overview
+
+### **NOTICE**
+
+- Before diving into the main section, it’s highly recommended to read the Introduction first.
+
+## Recommendations
+
+It’s strongly recommended to join the official [Discord](https://discord.com/invite/9ysyTFg5QF) server.
+It’s the only place to receive support. 
+The community is active and welcoming. 
+Many people are always ready to help newcomers and beginners.
+Additionally, you’ll also stay up to date with the latest Goyfield development news. 
+
+## Early Access
+
+You’ll get a chance to try exclusive early-access features before they’re released to the public.
+Additionally, we regularly share sneak peeks of upcoming Goyfield updates, so you can see what’s coming next before anyone else.
+
+
+## Contributing 
+We welcome and value all feedback and criticism. Contributions are always appreciated!
+There are many ways you can help improve Goyfield:
+
+- Report bugs and issues to help us fix bugs quickly.
+- Suggest new ideas improvements for Goyfield. 
+- Share feedback based on your experience using Goyfield.
+
+However, all contributions should be submitted through the correct [channel](https://discord.com/invite/9ysyTFg5QF). 
+

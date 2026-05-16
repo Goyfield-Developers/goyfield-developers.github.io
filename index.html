@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Goyfield Devs</title>
+    <link rel="icon" type="image/png" href="./logos/logo-goyfield.png">
+    <link rel="shortcut icon" href="./logos/logo-goyfield.png">
+    <link rel="apple-touch-icon" href="./logos/logo-goyfield.png">
+    <link rel="stylesheet" href="style.css?v=20260502-1">
+</head>
+
+<body data-page="landing">
+    <script>
+        (function () {
+            const route = window.location.hash.replace(/^#/, "");
+            const pagePart = route.split("/")[0] || "";
+            const normalizedPage = pagePart === "overview" ? "content" : (pagePart || "landing");
+
+            if (normalizedPage !== "landing") {
+                document.body.dataset.page = normalizedPage;
+                document.body.dataset.routeLoading = "true";
+            }
+        }());
+    </script>
+
+    <div class="route-loader" aria-live="polite">loading....</div>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="" class="brand">
+                <img
+                    src="./logos/logo-goyfield.png"
+                    alt="GOYFIELD logo"
+                    class="brand-mark"
+                    width="36"
+                    height="36"
+                    decoding="async"
+                    onerror="this.onerror=null;this.src='./logos/logo-goyfield.svg';"
+                >
+                <span class="brand-text">
+                    <span class="brand-name">GOYFIELD <span class="brand-accent">Developers</span></span>
+                </span>
+            </a>
+            <nav class="header-nav" aria-label="Primary">
+                <a href="" class="header-link active" data-page-link="landing">Home</a>
+                <a href="#content" class="header-link" data-page-link="content">Content</a>
+                <a href="https://goyfield.moe/" class="header-link" target="_blank" rel="noreferrer">Tracker</a>
+                <a href="https://discord.gg/9ysyTFg5QF" class="header-link" target="_blank" rel="noreferrer">Support</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="landing-view" aria-label="Landing page">
+        <div class="landing-shell">
+            <h1 class="landing-hero">
+                <span class="landing-hero-line">
+                        <span class="landing-hero-word">The</span>
+                    <span class="landing-highlight"><span class="landing-highlight-text">GOYFIELD Developers</span></span>
+                </span>
+
+                <span class="landing-hero-line">Document.</span>
+            </h1>
+
+            <p class="landing-description" data-typing data-typing-pace="34">
+                A straightforward documentation hub built for developers. No ads, neat info, clear navigation and nothing extra.
+            </p>
+
+            <div class="landing-actions" aria-label="Primary actions">
+                <a href="#content" class="landing-button landing-button-primary">Docs</a>
+                <a
+                  href="https://goyfield.moe/"
+                  class="landing-button landing-button-secondary"
+                  target="_blank"
+                    rel="noreferrer"
+                >
+                    Tracker <span aria-hidden="true">↗</span>
+                </a>
+            </div>
+
+            <div class="landing-badges" aria-label="Platform details">
+                <div class="landing-badge">
+                    <span class="landing-badge-mark">
+                        <img
+                            src="./logos/cloudflare.svg"
+                            alt=""
+                            class="landing-badge-icon"
+                            width="20"
+                            height="20"
+                            decoding="async"
+                        >
+                    </span>
+                    <span class="landing-badge-text">Powered by <strong>Cloudflare Pages</strong></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="layout docs-layout">
+        <div data-html-fragment="fragments/docs-sidebar.html"></div>
+
+        <div class="main-column">
+            <section class="panel search-panel" aria-label="Search">
+                <form class="search-form" role="search">
+                    <div class="search-field">
+                        <span class="search-icon" aria-hidden="true">⌕</span>
+                        <input
+                            id="site-search"
+                            class="search-input"
+                            type="search"
+                            name="search"
+                            placeholder="Search document"
+                            autocomplete="off"
+                        >
+                    </div>
+                    <button class="search-button" type="submit">Search</button>
+                </form>
+            </section>
+
+            <main class="panel content-panel">
+                <div class="content-layout">
+                    <div class="content-main" id="content-host"></div>
+                    <div data-html-fragment="fragments/appearance-panel.html"></div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <p class="site-attribution" aria-label="Site attribution">
+        © 𝗔𝗹𝗹 𝗿𝗶𝗴𝗵𝘁𝘀 𝗿𝗲𝘀𝗲𝗿𝘃𝗲𝗱 𝗯𝘆 𝘁𝗵𝗲𝗶𝗿 𝗿𝗲𝘀𝗽𝗲𝗰𝘁𝗶𝘃𝗲 𝗼𝘄𝗻𝗲𝗿𝘀. 𝗗𝗮𝘁𝗮 𝘀𝗼𝘂𝗿𝗰𝗲𝗱 𝗳𝗿𝗼𝗺 𝗚𝗼𝘆𝗳𝗶𝗲𝗹𝗱 (𝗼𝘄𝗻𝗲𝗱 𝗯𝘆 𝗜𝘃𝗮𝘄𝗮).
+    </p>
+
+    <script src="app.js?v=20260502-1"></script>
+</body>
+</html>

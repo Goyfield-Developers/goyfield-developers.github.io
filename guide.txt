@@ -1,0 +1,46 @@
+!title: 2-3 API Usage
+!eyebrow: 2-3 API
+!meta: Section 2-3
+!meta: Last updated: April 23, 2026
+
+# Page title
+## Section title
+### Smaller heading
+
+Normal paragraph text with **bold**, *italic*, `inline code`, and [links](https://example.com).
+
+- bullet item
+- another bullet
+
+1. ordered item
+2. ordered item
+
+> quote text
+
+```js
+console.log("code block");
+
+~~~0
+# Test
+## Test
+### Test
+Test
+~~~
+~~~0
+# Test
+## Test
+### Test
+Test
+~~~
+
+~~~1
+# Test
+## Test
+### Test
+Test
+~~~1
+# Test
+## Test
+### Test
+Test
+~~~
