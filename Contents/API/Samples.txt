@@ -1,7 +1,7 @@
-!title: 2-4 API Samples
+6!title: 2-4 API Samples
 !eyebrow: 2-4 API
 !meta: Section 2-4
-!meta: Last updated: May 1, 2026
+!meta: Last updated: June 9, 2026
 !meta: Edited by *@beetwooo_*
 
 # Samples
@@ -14,7 +14,7 @@ send the data to the perform with reply messeage
 index.js
 ```javascript
 // This is a very basic Discord bot script.
-// When a user types ".headhunting", the bot fetches data from the Basic Headhunting API and replies with the results.
+// When a user types "headhunting", the bot fetches data from the Basic Headhunting API and replies with the results.
 
 const { Client, GatewayIntentBits } = require("discord.js");
 
@@ -35,7 +35,7 @@ client.once("ready", () => {
 // Runs every time someone sends a message
 client.on("messageCreate", async (msg) => {
   if (msg.author.bot) return;                  // Ignore other bots
-  if (msg.content !== ".headhunting") return;  // Only respond to ".headhunting"
+  if (msg.content !== "headhunting") return;  // Only respond to ".headhunting"
 
   try {
     // Fetch data from the API
@@ -74,7 +74,7 @@ This is a very basic Discord bot script that fetches data from the Basic Headhun
 The bot starts by importing Client and GatewayIntentBits from the discord.js library. 
 Client is the bot itself, and GatewayIntentBits is the permissions the bot needs to function, and in this case, the intents are access to servers, messages, and read message content.
 Once the bot successfully logs in, it prints a confirmation message in the console so you know it's running.
-When a user types ".headhunting", the bot fetches data from the API and stores in memory as variables and in this case the variables that stores it should be
+When a user types "headhunting", the bot fetches data from the API and stores in memory as variables and in this case the variables that stores it should be
  total users, pulls, oroberyl spent, and the 6-star and 5-star rates. 
 The bot then reads the variables and send the reply.
 If anything goes wrong during the fetch, like the API being down, it replies with "Failed to fetch data." to prevent crashing.
