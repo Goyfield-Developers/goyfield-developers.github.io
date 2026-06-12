@@ -14,7 +14,7 @@
 
 - [2-1 Prologue](#api-prologue) - Introductory API context, structure, and what to expect before diving deeper.
 - [2-2 Mechanism](#api-mechanism) - How the API is works, Diving deeper to the mechanism.
-- [2-4 Samples](#api-samples) - Discord.js script example, Showcase.
+- [2-4 Samples](#api-samples) - Discord.js script example code.
 
 ## 3 Website
 
