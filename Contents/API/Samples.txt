@@ -1,4 +1,4 @@
-6!title: 2-4 API Samples
+!title: 2-4 API Samples
 !eyebrow: 2-4 API
 !meta: Section 2-4
 !meta: Last updated: June 9, 2026
