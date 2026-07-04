@@ -48,7 +48,7 @@ The API below will provide detailed explantion about every data's role. However 
  ...
 ```
 ```
-https://goyfield-api.betwo.workers.dev/basic-headhunting
+https://api.goyfield-developers.workers.dev/basic-headhunting
 ```
 
 The permanent standard banner. Returns pull data from all users.
@@ -83,7 +83,7 @@ The permanent standard banner. Returns pull data from all users.
  ...
 ```
 ```
-https://goyfield-api.betwo.workers.dev/new-horizons-headhunting
+https://api.goyfield-developers.workers.dev/new-horizons-headhunting
 ```
 
 The new player banner. Returns with the same data as Basic Headhunting.
@@ -119,7 +119,7 @@ The new player banner. Returns with the same data as Basic Headhunting.
  ...
 ```
 ```
-https://goyfield-api.betwo.workers.dev/special-headhunting
+https://api.goyfield-developers.workers.dev/special-headhunting
 ```
 Limited operator banners. Each individual banner has its own data.
 
@@ -156,7 +156,7 @@ Limited operator banners. Each individual banner has its own data.
  ...
 ```
 ```
-https://goyfield-api.betwo.workers.dev/event-weapon
+https://api.goyfield-developers.workers.dev/event-weapon
 ```
 
 Limited weapon banners. Returns the same data as Special Headhunting, but the guarantee is a 25:75 instead of 50:50.
@@ -194,7 +194,7 @@ Limited weapon banners. Returns the same data as Special Headhunting, but the gu
  ...
 ```
 ```
-https://goyfield-api.betwo.workers.dev/standard-weapon
+https://api.goyfield-developers.workers.dev/standard-weapon
 ```
 
 Permanent weapon banners. Returns the same data as Event Weapon.
