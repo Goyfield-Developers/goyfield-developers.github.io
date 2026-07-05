@@ -208,6 +208,7 @@ Permanent weapon banners. Returns the same data as Event Weapon.
 - Featured Image
 
 ### Random Meme
+%encrypt_4.png+sm
 
 ```
 https://api.goyfield-developers.workers.dev/images
