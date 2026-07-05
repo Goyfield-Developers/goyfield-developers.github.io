@@ -1,7 +1,7 @@
 !title: 2-1 API Prologue
 !eyebrow: 2-1 API
 !meta: Section 2-1
-!meta: Last updated: April 29, 2026
+!meta: Last updated: July 5, 2026
 !meta: Edited by *@beetwooo_*
 
 # Prologue
