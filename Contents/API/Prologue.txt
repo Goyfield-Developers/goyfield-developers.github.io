@@ -207,3 +207,14 @@ Permanent weapon banners. Returns the same data as Event Weapon.
 - Total Obtained
 - Featured Image
 
+### Random Meme
+
+```
+```
+https://api.goyfield-developers.workers.dev/images
+```
+
+Returns with random images of Endfield Characters.
+- Perlica : /images/perlica
+- Endministrator : /images/endmin
+- More coming soon!
