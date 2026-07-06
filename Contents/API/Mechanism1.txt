@@ -4,7 +4,7 @@
 !meta: Last updated: April 23, 2026
 !meta: Edited by *@beetwooo_*
 
-# Mechanism
+# Scraper Mechanism
 
 ### **NOTICE** 
 - It's not important to know this unless if you want to create a custom api that functions similarly to this.
