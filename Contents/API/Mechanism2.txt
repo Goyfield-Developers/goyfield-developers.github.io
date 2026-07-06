@@ -1,6 +1,6 @@
-!title: 2-2 API Mechanism
-!eyebrow: 2-2 API
-!meta: Section 2-2
+!title: 2-2 REST API
+!eyebrow: 2-3 API
+!meta: Section 2-3
 !meta: Last updated: July 6, 2026
 !meta: Edited by *@beetwooo_*
 
