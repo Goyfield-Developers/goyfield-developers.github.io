@@ -1,14 +1,8 @@
-!title: 2-2 REST API
-!eyebrow: 2-3 API
+!title: 2-3 REST API Mechanism
+!eyebrow: 2-3 Overview
 !meta: Section 2-3
-!meta: Last updated: July 6, 2026
-!meta: Edited by *@beetwooo_*
 
-# REST API Mechanism
 
-### **NOTICE** 
-- It's not important to know this unless if you want to create a custom api that functions similarly to this.
+# Warming Up
 
-## Overview
-
-This is an explantion about how the mechanism works. 
+This page is currently being reviewed. Please check back in a few hours.
