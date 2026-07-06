@@ -1,6 +1,6 @@
 ## Reporting a Vulnerability
 
-**Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
+**Please do not report security vulnerabilities through public GitHub issues, discussions, channels, or pull requests.**
 
 If you discover a potential security vulnerability in this project, please report it securely using one of the following methods:
 
