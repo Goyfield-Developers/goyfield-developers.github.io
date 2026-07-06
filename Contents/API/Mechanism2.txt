@@ -1,5 +1,5 @@
 !title: 2-3 REST API Mechanism
-!eyebrow: 2-3 Overview
+!eyebrow: 2-3 API
 !meta: Section 2-3
 
 
