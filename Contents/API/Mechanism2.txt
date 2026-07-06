@@ -1,1 +1,14 @@
+!title: 2-2 API Mechanism
+!eyebrow: 2-2 API
+!meta: Section 2-2
+!meta: Last updated: July 6, 2026
+!meta: Edited by *@beetwooo_*
 
+# REST API Mechanism
+
+### **NOTICE** 
+- It's not important to know this unless if you want to create a custom api that functions similarly to this.
+
+## Overview
+
+This is an explantion about how the mechanism works. 
