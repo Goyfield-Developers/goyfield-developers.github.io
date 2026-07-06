@@ -13,7 +13,7 @@ To help us triage and resolve the issue quickly, please include:
 2. **Affected Components**: The specific versions, files, or endpoints involved.
 3. **Proof of Concept**: Step-by-step instructions, scripts, or screenshots to reproduce the issue.
 
-### Our Process
+### The Process
 * **Acknowledgement**: We will acknowledge receipt of your report within 48 hours.
 * **Triage**: We will keep you updated as we validate the issue and work on a fix.
 * **Disclosure**: We follow coordinated vulnerability disclosure. We ask that you give us 90 days to write and deploy a patch before any public information is shared. We will credit you for the discovery in our release notes unless you prefer to remain anonymous.
